@@ -23,6 +23,7 @@ def convert(lines):
             new.append(person + ': ' + line)
     return new
 
+# 將轉換好的list輸出成.txt檔
 def write_file(filename, lines):
     with open(filename, 'w') as f:
         for line in lines:
